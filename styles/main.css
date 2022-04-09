@@ -43,13 +43,12 @@ body{
     margin-top: 0;
 }
 
-.advice-card .divider{
-    margin: 1.1rem 0 2rem 0;
+.advice-card .divider, .advice-card .divider-mobile{
+    margin: 1.5rem 0 2rem 0;
 }
 
 .advice-card .divider-mobile{
     display: none;
-    margin: 1.1rem 0 2rem 0;
 }
 
 .advice-card .dice{
@@ -80,6 +79,10 @@ body{
 
 .attribution a:hover{
     color: hsl(150, 63%, 55%);
+}
+
+svg{
+    pointer-events: all;
 }
 
 @media(max-width: 550px){
